@@ -21,8 +21,11 @@ const addProject = (data) => {
 }
 
 useEffect(()=>{
-  setProjects(initalProjects);
-},[])
+
+    setProjects(initalProjects);
+ 
+  
+},[])//  eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div>
